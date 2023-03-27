@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat";
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(37, 38, 39);
+    color: white;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(51, 55, 59);
+    border-radius: 8px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+button {
+        font-family: Teko;
+        font-weight: 300;
+        font-size: 16px;
+        color: #ffffff;
+        background: linear-gradient(90deg, #0066CC 0%, #d62828 100%);
+        padding: 10px 20px;
+        margin-top: 30px;
+        border: none;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 22px 50px;
+        transition: 327ms;
+        transform: translateY(0);
+        cursor: pointer;
+}
+
+button:hover{
+        transition: 327ms;
+        padding: 10px 50px;
+        transform: translateY(-0px);
+        background: linear-gradient(90deg, #0066CC 0%, #d62828 100%);
+        color: #ffffff;
+        border: none;
+}
+
+
+
+
+
+
+
+
+
